@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,600&display=swap');
+
 /* GENERAL CSS RULES */
 
 * {
@@ -20,7 +22,7 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    margin-bottom: 4rem;
 }
 
 .choice-container {
@@ -32,8 +34,60 @@ main {
     margin: 0 auto;
 }
 
+.game-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 2px solid #545454;
+    border-radius: 6px;
+    max-width: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
 /* SPECIFICS */
 
-.icon-img {
-    max-width: 7rem;
+h1 {
+    font-family: 'Source Code Pro', monospace, sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 4rem;
+    color: #545454;
 }
+
+h2 {
+    font-family: 'Source Code Pro', monospace, sans-serif;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-family: 'Source Code Pro', monospace, sans-serif;
+    font-size: 2rem; 
+}
+
+h3 a {
+    text-decoration: none;
+    color: #545454;
+}
+
+.game-name {
+    font-style: italic;
+}
+
+
+.icon-img {
+    width: 7rem;
+    margin-left: 1.5rem;
+}
+
+
