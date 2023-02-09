@@ -46,7 +46,6 @@ main {
     gap: 3rem;
     border: 2px solid #545454;
     border-radius: 6px;
-    max-width: 50%;
 }
 
 .reset {
@@ -111,4 +110,53 @@ h3 a {
     margin-left: 1.5rem;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width: 1666px){
+    .icon-img {
+        max-width: 4rem;
+    }
+
+    h1 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .icon-img {
+        max-width: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game-name {
+        display: inline-block;
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .choice-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .scores {
+        display: flex;
+    }
+
+    .player-score {
+        font-size: 1.5rem;
+    }
+
+    .game-container {
+        width: 15rem;
+    }
+    
+    footer {
+        margin-bottom: 2rem;
+    }
+}
