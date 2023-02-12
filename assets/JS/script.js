@@ -37,3 +37,44 @@ document.addEventListener("DOMContentLoaded", function () {
     previouslySelected = selectedIcon;
     return computerInput;
   }
+
+  function compareChoices(user, computer) {
+    switch (user + computer) {
+      case "rockscissors":
+      case "scissorspaper":
+      case "paperrock":
+      case "paperspock":
+      case "lizardspock":
+      case "lizardpaper":
+      case "scissorslizard":
+      case "rocklizard":
+      case "spockscissors":
+      case "spockrock":
+        incrementUserScore();
+        resultText.innerText = `Wow! You've won!
+        You chose ${user} and the computer selected ${computer}!`;
+        break;
+      case "scissorsrock":
+      case "paperscissors":
+      case "rockpaper":
+      case "paperlizard":
+      case "lizardscissors":
+      case "lizardrock":
+      case "scissorsspock":
+      case "rockspock":
+      case "spockpaper":
+      case "spocklizard":
+        incrementComputerScore();
+        resultText.innerText = `Oh noes! You've a lost... :(
+        You chose ${user} and the computer selected ${computer}.`;
+        break;
+      case "paperpaper":
+      case "scissorsscissors":
+      case "rockrock":
+      case "lizardlizard":
+      case "spockspock":
+        break;
+    }
+    console.log("Input user: " + user + ", input computer: " + computer);
+    return result;
+  }
