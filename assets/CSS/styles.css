@@ -38,24 +38,6 @@ main {
     gap: 2rem;
 }
 
-.rules-container li {
-    list-style-type: none;
-    margin-bottom: 0.7rem;
-}
-
-.rules-container p {
-    text-decoration: underline;
-}
-
-.rules-container p,
-.rules-container li {
-    font-size: 2.2rem;
-}
-
-.rules-container li:last-child {
-    border-bottom: #898585 solid 4px;
-    padding-bottom: 2rem;
-}
 
 .choice-container {
     display: flex;
@@ -105,6 +87,25 @@ main {
 footer {
     text-align: center;
     margin-bottom: 4rem;
+}
+
+.rules-container li {
+    list-style-type: none;
+    margin-bottom: 0.7rem;
+}
+
+.rules-container p {
+    text-decoration: underline;
+}
+
+.rules-container p,
+.rules-container li {
+    font-size: 2.2rem;
+}
+
+.rules-container li:last-child {
+    border-bottom: #898585 solid 4px;
+    padding-bottom: 2rem;
 }
 
 
