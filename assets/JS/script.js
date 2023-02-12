@@ -24,3 +24,16 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  function computersTurn() {
+    let computerInput = Math.floor((Math.random() * 10) / 2);
+    if (previouslySelected) {
+      previouslySelected.classList.remove("selected");
+    }
+    let selectedIcon = document.getElementById(
+      "computer-" + choices[computerInput]
+    );
+    selectedIcon.classList.add("selected");
+    previouslySelected = selectedIcon;
+    return computerInput;
+  }
