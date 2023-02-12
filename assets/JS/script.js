@@ -1,3 +1,8 @@
+const choices = ["rock", "spock", "paper", "lizard", "scissors"];
+let result = null;
+let previouslySelected = null;
+let resultText = document.getElementById("result-text");
+
 document.addEventListener("DOMContentLoaded", function () {
     let inputs = document.getElementsByTagName("input");
     let resetButton = document.getElementById("reset-btn");
