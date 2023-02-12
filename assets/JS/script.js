@@ -78,3 +78,23 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Input user: " + user + ", input computer: " + computer);
     return result;
   }
+
+  function incrementUserScore() {
+    let oldScore = parseInt(document.getElementById("pscore").innerText);
+    document.getElementById("pscore").innerText = ++oldScore;
+  }
+  
+  function incrementComputerScore() {
+    let oldScore = parseInt(document.getElementById("cscore").innerText);
+    document.getElementById("cscore").innerText = ++oldScore;
+  }
+  
+  function resetGame() {
+    if (previouslySelected) {
+      previouslySelected.classList.remove("selected");
+    }
+    document.getElementById("pscore").innerText = 0;
+    document.getElementById("cscore").innerText = 0;
+  }
+  
+  
