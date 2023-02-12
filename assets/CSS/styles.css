@@ -157,6 +157,11 @@ h3 a {
     padding: .5rem;
 }
 
+#result-text {
+    font-size: 2rem;
+    text-align: center;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1666px){

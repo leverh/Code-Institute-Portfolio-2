@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
       case "spockpaper":
       case "spocklizard":
         incrementComputerScore();
-        resultText.innerText = `Oh noes! You've a lost... :(
+        resultText.innerText = `Oh noes! You've lost... :(
         You chose ${user} and the computer selected ${computer}.`;
         break;
       case "paperpaper":
@@ -73,6 +73,8 @@ document.addEventListener("DOMContentLoaded", function () {
       case "rockrock":
       case "lizardlizard":
       case "spockspock":
+        resultText.innerText = `It's a tie!
+          You chose ${user} and the computer also selected ${computer}.`;
         break;
     }
     console.log("Input user: " + user + ", input computer: " + computer);
