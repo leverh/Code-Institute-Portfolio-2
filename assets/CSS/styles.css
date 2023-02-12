@@ -151,6 +151,12 @@ h3 a {
     margin-left: 1.5rem;
 }
 
+.selected {
+    border: 4px #fcba03 solid;
+    border-radius: 6px;
+    padding: .5rem;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1666px){
