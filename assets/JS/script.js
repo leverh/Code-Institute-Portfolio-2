@@ -1,7 +1,12 @@
+// Global and local variables as well as an array for player choices with all game options
+
 const choices = ["rock", "spock", "paper", "lizard", "scissors"];
 let result = null;
 let previouslySelected = null;
 let resultText = document.getElementById("result-text");
+
+
+//Add event listeners to the inputs and the button. The inputs are diffrentiated based on the data type
 
 document.addEventListener("DOMContentLoaded", function () {
     let inputs = document.getElementsByTagName("input");
@@ -25,6 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+
+//Selects a random number from 0 to 4 for the computer input and removes the highlight from the previously selected choice
+
   function computersTurn() {
     let computerInput = Math.floor((Math.random() * 10) / 2);
     if (previouslySelected) {
@@ -37,6 +45,9 @@ document.addEventListener("DOMContentLoaded", function () {
     previouslySelected = selectedIcon;
     return computerInput;
   }
+
+
+//Switch function to decide who won and then display the appropriate message using template literals
 
   function compareChoices(user, computer) {
     switch (user + computer) {
@@ -81,16 +92,23 @@ document.addEventListener("DOMContentLoaded", function () {
     return result;
   }
 
+//Player score is incremented and displayed
+
   function incrementUserScore() {
     let oldScore = parseInt(document.getElementById("pscore").innerText);
     document.getElementById("pscore").innerText = ++oldScore;
   }
+
+
+//Computer score is incremented and displayed  
   
   function incrementComputerScore() {
     let oldScore = parseInt(document.getElementById("cscore").innerText);
     document.getElementById("cscore").innerText = ++oldScore;
   }
-  
+
+//Reset button function to remove existing scores and display fresh page text
+
   function resetGame() {
     if (previouslySelected) {
       previouslySelected.classList.remove("selected");
