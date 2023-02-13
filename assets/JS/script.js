@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     document.getElementById("pscore").innerText = 0;
     document.getElementById("cscore").innerText = 0;
+    resultText.innerText = 'Choose your weapon!';
   }
   
   
