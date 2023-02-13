@@ -1,6 +1,8 @@
 # Portfolio Assignment 2 - Rock, Paper, Scissors, Lizard, Spock: JavaScript Game Code
 
-[Link to deployed website on github pages](https://leverh.github.io/Code-Institute-Portfolio-2/)
+[Link to the deployed website on GitHub pages](https://leverh.github.io/Code-Institute-Portfolio-2/)
+
+[Link to the deployed website on Netlify](https://bespoke-shortbread-9b2d7c.netlify.app/)
 
 This small website contains a game of Rock, Paper, Scissors, Lizard, Spock using HTML, CSS, and Javascript. 
 
