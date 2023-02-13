@@ -4,7 +4,7 @@
 
 This small website contains a game of Rock, Paper, Scissors, Lizard, Spock using HTML, CSS, and Javascript. 
 
-I tried to make this entire responsive website look fun utilizing special fonts, colors, and icons which should (at least- that was my intention) convey a playful easy going atmosphere. 
+I tried to make this entire responsive website look fun utilizing special fonts, colors, and icons which should (at least- that was my intention) convey a playful, easy going atmosphere. 
 
 The target audience for the website are new coders (like myself) that want to be inspired by new ideas and methods to solve 'old' problems, or for the occasional player that just wants to try and beat the computer in their quest for rock paper scissors world domination!
 
@@ -39,7 +39,7 @@ Finally there's a reset button which will reset the game the scores.
 
 Thorughout the project I have used the live server extension on VS code to make sure everything looks the way it should. I also relied on the inspect tool in my Firefox browser.
 
-When it came to the JavaScript code, I tested each step of the code using console.logs to make sure the code was correct and reproduced what I needed it to. 
+When it came to the JavaScript code, I tested each step of the code using console.logs to make sure the code was correct and had reproduced what I needed it to. 
 I initially tested all the code on CodePen and jsfiddle: 
 ![screenshot of testing on jdfiddle](assets/Images/Screenshot%202023-02-12%20at%2016-41-11%20JSFiddle%20-%20Code%20Playground.png)
 
@@ -62,7 +62,7 @@ I also sent the game link to a couple of friends/family to have a go and let me 
   
     - There are 8 functions in this file.
     - Function with the largest signature take 2 arguments, while the median is 0.
-    - Largest function has 7 statements in it, while the median is 3.5.
+    - Largest function has 7 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 26 while the median is 2.
 
 
@@ -87,3 +87,7 @@ The live link can be found here: https://leverh.github.io/Code-Institute-Portfol
 - I used the Stackoverflow forums for specific issues such as:
     - Before I separated the rules from the main page, i looked at different options on how to create a popup for the rules using JS or CSS. This is one of the links i looked at: https://stackoverflow.com/questions/16776276/display-box-on-hover
     - The remind myself of JS syntax for the switch function I looked at https://www.w3schools.com/js/js_switch.asp
+
+# Future Ideas
+
+I think it would be cool to have the relevant instruction come up as soon as the player and computer make their choice- so for example, if the player picks paper and the computer picks rock- in addition to being notified of a win- the notification would include the relevant rule- "Paper covers rock", etc. The notification could also be replaced by an animation where the two icons battle and one survives.  
