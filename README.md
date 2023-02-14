@@ -20,6 +20,7 @@ This project utilizes HTML, CSS, and JavaScript.
 
 #### The Header
 The h1 contains the main intention for the page and the first thing that a user will look at. Again, I have decided to use an icon of the cute lizard instead of using plain text to add to the easy-going feel of the site.
+
 ![Image of the H1 element](assets/Images/Screenshot%202023-02-12%20at%2016-16-49%20Rock%20Paper%20Scissor%20Lizard%20Spock%20JavaScript%20Game%20Code.png)
 
 #### The Rules
@@ -29,6 +30,7 @@ This is followed by a short description of how to play the game, and a link to a
 
 #### Game Area
 next is the actual game area that allows the player to pick their 'weapon' of choice against the computer. Two windows contain the 5 icons for both the player and computer. When the player chooses an icon and the game takes place, the computer's choice will be highlighted by a yellow border as seen in the picture below: 
+
 ![screenshot of main game page containing the two game windows](assets/Images/Screenshot%202023-02-12%20at%2016-25-55%20Rock%20Paper%20Scissor%20Lizard%20Spock%20JavaScript%20Game%20Code.png)
 
 The score will also be incremented accordingly in the separate game winsows. 
@@ -41,11 +43,13 @@ Finally there's a reset button which will reset the game the scores.
 
 Thorughout the project I have used the live server extension on VS code to make sure everything looks the way it should. I also relied on the inspect tool in my Firefox browser.
 
-When it came to the JavaScript code, I tested each step of the code using console.logs to make sure the code was correct and had reproduced what I needed it to. 
+When it came to the JavaScript code, I tested each step of the code using console.logs to make sure the code was correct and had reproduced what I needed it to. I also used [PythonTutor](https://pythontutor.com/) to test (and debug) each step of the code.
+
 I initially tested all the code on CodePen and jsfiddle: 
+
 ![screenshot of testing on jdfiddle](assets/Images/Screenshot%202023-02-12%20at%2016-41-11%20JSFiddle%20-%20Code%20Playground.png)
 
-I also sent the game link to a couple of friends/family to have a go and let me know whether everything was working on their end without a hitch. 
+I also sent the game link to a couple of friends/family to have a go and let me know whether everything was working on their end without a hitch. This was where I discovered that my reset button wasn't working as expected. I then went back to the code to fix the issue. 
 
 ### Validator Testing
 
