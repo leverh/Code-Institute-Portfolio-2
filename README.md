@@ -71,6 +71,13 @@ I also sent the game link to a couple of friends/family to have a go and let me 
     - Largest function has 7 statements in it, while the median is 4.
     - The most complex function has a cyclomatic complexity value of 26 while the median is 2.
 
+- Accessibility
+  
+  - Accessibility was tested on W3C recommended website [A11Y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) and found no issues.
+  - Accessibility was further tested on [https://www.experte.com/accessibility](https://www.experte.com/accessibility) and scored 100.
+
+![Screenshot of accessibility check](assets/Images/Screenshot%202023-02-14%20at%2010-59-26%20Accessibility%20Checker%20-%20Is%20Your%20Website%20Accessible.png)
+
 
 # Deployment
 
